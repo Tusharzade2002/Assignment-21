@@ -33,3 +33,17 @@ body{
 .body-header{
     text-align: center;
 }
+.receipt-detail{
+       display: flex;
+       justify-content: space-around;
+       font-size: 20px;
+}
+.receipt-detail-key{
+    color: gray;
+    width: 30%;
+}
+.receipt-detail-value{
+    font-weight: bold;
+    border-bottom: 1px dashed gray; 
+    width: 30%;
+}
