@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+}
+.main{
+    background-color: white;
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    margin: 2px auto;
+    padding: 3px;
+    border-radius: 2px;
+}
+.main img{
+    height:50px;
+    display: block;
+    margin: 5px auto;
+}
+.brand-name{
+ text-align: center;
+}
+.address{
+    text-align: end;
+}
+.contant{
+    text-align: end;
+}
+.content-header{
+    border-bottom: 2px dotted gray;
+}
+.body-header{
+    text-align: center;
+}
+.receipt-detail{
+       display: flex;
+       justify-content: space-around;
+       font-size: 20px;
+}
+.receipt-detail-key{
+    color: gray;
+    width: 30%;
+}
+.receipt-detail-value{
+    font-weight: bold;
+    border-bottom: 1px dashed gray; 
+    width: 30%;
+}
