@@ -68,3 +68,69 @@ body{
     text-align: center;
     padding: 20px 0px;
 }
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .main{
+        padding: 2px 6px;
+      }
+      .address{
+            padding: 0px 5px;
+      }
+      .contant{
+            padding: 0px 5px;
+      }
+      .receipt-detail{
+        display: flex;
+        justify-content: center;
+        margin:5px 3px;
+      }
+      .receipt-detail-value{
+        width: 25%;
+      }
+      .receipt-detail-key{
+        width: 25%;
+      }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+      .main{
+        padding: 2px 6px;
+      }
+      .address{
+            padding: 0px 5px;
+      }
+      .contant{
+            padding: 0px 5px;
+      }
+      .receipt-detail{
+        display: flex;
+        justify-content: center;
+        margin:5px 3px;
+    }
+    .receipt-detail-value{
+      width: 25%;
+    }
+    .receipt-detail-key{
+      width: 25%;
+    }
+  }
+
+  /* Tablet Devices */
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .main{
+        padding: 2px 6px;
+      }
+      .address{
+        padding: 0px 5px;
+  }
+  .contant{
+        padding: 0px 5px;
+  }
+  }
+
+  /* Dekstop device */
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+  }
